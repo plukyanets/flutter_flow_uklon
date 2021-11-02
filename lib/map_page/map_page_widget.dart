@@ -370,6 +370,12 @@ class _MapPageWidgetState extends State<MapPageWidget> {
                                         height: 100,
                                         decoration: BoxDecoration(
                                           color: Colors.white,
+                                          borderRadius: BorderRadius.only(
+                                            bottomLeft: Radius.circular(14),
+                                            bottomRight: Radius.circular(0),
+                                            topLeft: Radius.circular(0),
+                                            topRight: Radius.circular(0),
+                                          ),
                                         ),
                                         child: Align(
                                           alignment: AlignmentDirectional(0, 0),
@@ -391,6 +397,12 @@ class _MapPageWidgetState extends State<MapPageWidget> {
                                         height: 100,
                                         decoration: BoxDecoration(
                                           color: Color(0xFF22AFA5),
+                                          borderRadius: BorderRadius.only(
+                                            bottomLeft: Radius.circular(0),
+                                            bottomRight: Radius.circular(14),
+                                            topLeft: Radius.circular(0),
+                                            topRight: Radius.circular(0),
+                                          ),
                                         ),
                                         child: Align(
                                           alignment: AlignmentDirectional(0, 0),
@@ -513,7 +525,7 @@ class _MapPageWidgetState extends State<MapPageWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 20, 0, 0),
                                   child: Row(
-                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisSize: MainAxisSize.min,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment: CrossAxisAlignment.end,
                                     children: [
