@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "645191777964",
+    "project_id": "flutterflowuklonclone",
+    "storage_bucket": "flutterflowuklonclone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645191777964:android:942d8edc1036ca4fdb2909",
+        "android_client_info": {
+          "package_name": "com.flutterflow.taxiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645191777964-125s2jugl5rsi4alj7krcdolhcq79tuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutterflow.taxiapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "645191777964-knkoq6co3nc8ic87ep7m4ulibsuhf0bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTz7lxT3gkEfmLPisomv3DUpkTJgW-AOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645191777964-knkoq6co3nc8ic87ep7m4ulibsuhf0bq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645191777964-pgs5hom7tj8cbf79q9e2bhufcofdilsl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.taxiapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
